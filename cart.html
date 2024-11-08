@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuxyPens - Products</title>
+    <link rel="stylesheet" href="products.css">
+    <style>
+        /* Additional styles for the Products page */
+        body {
+            font-family: 'arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+        header {
+            background-color: #6175cb;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .product {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #6175cb;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AuxyPens</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AuxyPens. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart(name, price) {
+            // Here you would implement the logic to add the item to the cart
+            console.log(`${name} has been added to the cart at $${price}.`);
+            // You can also implement localStorage or another method to persist cart data
+        }
+    </script>
+</body>
+</html>
+
+
+

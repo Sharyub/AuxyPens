@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuxyPens - Sharpeners</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AuxyPens</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sharpeners">
+            <h2>Sharpeners</h2>
+            <div class="product-list">
+                <!-- Repeat for each Sharpener -->
+                <div class="product">
+                    <img src="sharpener1.jpg" alt="Sharpener 1">
+                    <h3>Sharpener 1</h3>
+                    <p>Durable and efficient pencil sharpeners.</p>
+                    <button onclick="addToCart('Sharpener 1', 1.20, this)">Add to Cart</button>
+                </div>
+                <!-- Add 5 more products for Sharpeners -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AuxyPens. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
