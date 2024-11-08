@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuxyPens - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional styles for the About page */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+
+        header {
+            background-color: #6175cb;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .founders-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .founder {
+            width: 30%;
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .founder:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .founder img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .founder:hover img {
+            opacity: 0.85;
+        }
+
+        .founder h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .founder p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .factory-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            margin: 30px 0;
+        }
+
+        footer {
+            background-color: #6175cb;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AuxyPens</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About AuxyPens</h2>
+        <p>Since 1950, AuxyPens has been a leading name in crafting premium writing instruments. From our humble beginnings in the USA, we have grown into a brand known for its quality and innovation. Founded by Edward Bradley, Lillian Harper, and Jonathan Cole, AuxyPens continues to deliver excellence in every pen we create.</p>
+
+        <!-- Factory Image Section -->
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/83/31/43/eigentliche-sonnenseite.jpg?w=1200&h=1200&s=1" alt="AuxyPens Factory" class="factory-image">
+
+        <!-- Founders Section -->
+        <div class="founders-section">
+            <div class="founder">
+                <img src="https://cdn.pixabay.com/photo/2024/02/26/14/13/businessman-8598067_960_720.jpg" alt="Edward Bradley">
+                <h3>Edward Bradley</h3>
+                <p>The visionary behind AuxyPens, Edward’s passion for design and quality led to the creation of our first premium fountain pen.</p>
+            </div>
+            <div class="founder">
+                <img src="https://media.istockphoto.com/id/1413766112/photo/successful-mature-businessman-looking-at-camera-with-confidence.jpg?s=612x612&w=0&k=20&c=NJSugBzNuZqb7DJ8ZgLfYKb3qPr2EJMvKZ21Sj5Sfq4=" alt="Lillian Harper">
+                <h3>Lillian Harper</h3>
+                <p>As the creative force of the team, Lillian brought modern aesthetics and innovation to our pen designs.</p>
+            </div>
+            <div class="founder">
+                <img src="https://st2.depositphotos.com/3143277/9148/i/450/depositphotos_91489128-Business-man-in-office.jpg" alt="Jonathan Cole">
+                <h3>Jonathan Cole</h3>
+                <p>Jonathan’s focus on craftsmanship and precision has ensured that every AuxyPen delivers the perfect writing experience.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AuxyPens. All rights reserved.</p>
+    </footer>
+</body>
+</html>
